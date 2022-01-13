@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendiendo</title>
+    <title>Ecommerce - Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
     <header>
-        <h1>Tienda muebles</h1>
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
     </header>
        
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-        
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    
+    
+    <div class="hero">
+
+    </div>
+
     <section>
 
-        <h2>Categorias de Productos</h2>
+        <h2>Categorias de <span>Productos</span></h2>
         
         <div>
             <img src="img/categoria1.jpg" alt="imagen categoria1">
@@ -43,9 +52,19 @@
 
     </section>
 
-    <section>
+    <section class="sobre-nosotros">
         <div>
             <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eius nobis eveniet accusamus aut! Aut, labore recusandae velit ab unde
+                perferendis alias explicabo eveniet! Reprehenderit placeat repellendus
+                laudantium ratione esse eius.</p>
+            </div>
+    </section>
+
+    <section class="sobre-empresa">
+        <div>
+            <h2>Sobre Empresa</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eius nobis eveniet accusamus aut! Aut, labore recusandae velit ab unde
                 perferendis alias explicabo eveniet! Reprehenderit placeat repellendus
@@ -156,7 +175,7 @@
 
             <div>
                 <h3>Sobre Nosotros</h3>
-                <nav>
+                <nav class="navegacion">
                     <a href="#">Nuestros Historia</a>
                     <a href="#">Mision, Visioon, valores</a>
                     <a href="#">Carreras</a>
