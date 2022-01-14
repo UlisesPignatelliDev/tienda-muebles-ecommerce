@@ -178,7 +178,7 @@ img {
         background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
         background-position: left center ;
         padding: 10rem 0;
-        background-size: 100%, 160rem;
+        background-size: 100%, 120rem;
     }
 }
 .sobre-nosotros-grid {
